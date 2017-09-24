@@ -19,7 +19,7 @@ class Crypto_stats:
 
     def get_ether_gbp(self):
         '''
-        Returns ethereum price in GBP
+        Returns ethereum price in GBP.
         '''
 
         usd = self.pub_client.get_product_ticker(product_id="ETH-USD")
